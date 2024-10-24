@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     ofstream outfile("my_file.txt");
-    cout << "lorem ipsum";
+    cout << "dorime";
     if (outfile.is_open()) {
         outfile << "Это текст, который мы записываем в файл.\n"; 
         outfile.close();
