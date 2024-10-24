@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     ifstream infile("my_file.txt");
-    cout << "съешь ещё этих мягких французских булок";
+    cout << "съешь ещё этих мягких французских булок да выпей чаю";
     if (infile.is_open()) {
         string line;
         while (getline(infile, line)) {
