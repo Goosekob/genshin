@@ -10,7 +10,6 @@ int main() {
     if (outfile.is_open()) {
         outfile << "Это текст, который будет добавлен в конец файла.\n";
         outfile.close(); 
-        cout << "Текст добавлен в my_file.txt.\n";
     } else {
         cout << "Ошибка при открытии файла.\n";
     }
