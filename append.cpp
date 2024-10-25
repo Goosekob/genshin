@@ -10,7 +10,6 @@ int main() {
     if (outfile.is_open()) {
         outfile.close(); 
     } else {
-        cout << "Ошибка при открытии файла.\n";
     }
 
     return 0;
