@@ -11,6 +11,7 @@ int main() {
         outfile << ".\n"; 
         outfile.close();
     }
+    cout << "sdfsdfdsfsdforime";
 
     return 0;
 }
