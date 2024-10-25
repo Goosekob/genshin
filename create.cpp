@@ -11,9 +11,7 @@ int main() {
         outfile << ".\n"; 
         outfile.close();
     }
-    cout << "dorime interimo adapare dorime";
-    cout << "dorime interimo adapare dorime";
-    cout << "dorime interimo adapare dorime";
+    cout << "sdfsdfdsfsdforime";
 
     return 0;
 }
