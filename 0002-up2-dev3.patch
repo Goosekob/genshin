@@ -1,0 +1,24 @@
+From 95e7038ffa91d970439395f837459e720f2de3a1 Mon Sep 17 00:00:00 2001
+From: Anna <glavatskikhas@gmail.com>
+Date: Fri, 25 Oct 2024 15:39:03 +0300
+Subject: [PATCH 2/3] up2 dev3
+
+---
+ create.cpp | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/create.cpp b/create.cpp
+index ed7cfc0..7fd8c31 100644
+--- a/create.cpp
++++ b/create.cpp
+@@ -6,7 +6,6 @@ using namespace std;
+ 
+ int main() {
+     ofstream outfile("my_file.txt");
+-    cout << "dorime interimo adapare dorime";
+     if (outfile.is_open()) {
+         outfile << ".\n"; 
+         outfile.close();
+-- 
+2.34.1
+
