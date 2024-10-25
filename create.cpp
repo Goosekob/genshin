@@ -6,12 +6,10 @@ using namespace std;
 
 int main() {
     ofstream outfile("my_file.txt");
-    cout << "dorime interimo adapare dorime";
     if (outfile.is_open()) {
         outfile << ".\n"; 
         outfile.close();
     }
-    cout << "sdfsdfdsfsdforime";
 
     return 0;
 }
