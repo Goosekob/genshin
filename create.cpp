@@ -10,8 +10,6 @@ int main() {
     if (outfile.is_open()) {
         outfile << "Это текст, который мы записываем в файл.\n"; 
         outfile.close();
-    } else {
-        cout << "Ошибка при открытии файла.\n";
     }
 
     return 0;
